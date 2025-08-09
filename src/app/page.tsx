@@ -29,7 +29,7 @@ export default function Home() {
           </button>
         </div>
 
-        
+
         <div className="absolute left-1/2 bottom-[-40px] transform -translate-x-1/2 z-20">
           <div className="border-2 border-black p-2 w-28 h-28 flex items-center justify-center ">
             <Image
@@ -95,16 +95,17 @@ export default function Home() {
 
       </div>
       <div className="w-[70%] h-auto border border-[#4DD1F4] border-t-0 mt-0 mx-auto rounded-b-lg pb-7">
-        <div className="flex flex-col items-center justify-center mt-12 text-center">
+        <div className="flex flex-col items-center justify-center mt-0 text-center pt-20">
           <h2 className="text-lg md:text-xl text-gray-800">
             Real Brands. Real Experiments.
           </h2>
           <h2 className="text-lg md:text-xl font-bold text-gray-900 mb-4">
             Real Results.
           </h2>
-          <button className="bg-sky-400 text-white px-6 py-2 rounded-md hover:bg-sky-500 transition">
+          <Link href="/services"><button className="bg-sky-400 text-white px-6 py-2 rounded-md hover:bg-sky-500 transition cursor-pointer">
             All Services
-          </button>
+          </button></Link>
+
         </div>
 
         <div className="mt-[7%]">
@@ -121,11 +122,11 @@ export default function Home() {
             </div>
             <div className="h-36 w-36 border-1 rounded-md border-[#4DD1F4] transform rotate-[120.12deg] mr-7">
               <Image
-                src="/Little-tag"
+                src="/Little-tag.png"
                 alt="little-tag"
-                height={500}
-                width={500}
-                className="rotate-[63deg] object-cover "
+                height={300}
+                width={300}
+                className="rotate-[-120deg] object-cover mr-5 "
               />
             </div>
 
@@ -138,36 +139,36 @@ export default function Home() {
                 alt="one-teacher"
                 height={500}
                 width={500}
-                className="rotate-[63deg] object-cover "
+                className="rotate-[34.85deg] object-cover "
               />
             </div>
             <div className="h-36 w-36 border-1 rounded-md border-[#4DD1F4] transform rotate-[14.96deg] "><Image
               src="/Payal Jain.png"
               alt="payal-jain"
-              height={500}
-              width={500}
-              className="rotate-[63deg] object-cover "
+              height={400}
+              width={400}
+              className="rotate-[14.96deg] object-cover mt-10 "
             /></div>
             <div className="h-36 w-36 border-1 rounded-md border-[#4DD1F4] transform rotate-[29deg] m-0"><Image
-              src="/ARADHANA.png"
-              alt="aradhana"
-              height={500}
-              width={500}
-              className="rotate-[63deg] object-cover "
-            /></div>
-            <div className="h-36 w-36 border-1 rounded-md border-[#4DD1F4] transform rotate-[-29deg] "><Image
               src="/shades.png"
               alt="shades"
-              height={500}
-              width={500}
-              className="rotate-[63deg] object-cover "
+              height={300}
+              width={300}
+              className="rotate-[-20deg] object-cover mt-5"
             /></div>
-            <div className="h-36 w-36 border-1 rounded-md border-[#4DD1F4] transform rotate-[-130deg]"><Image
+            <div className="h-36 w-36 border-1 rounded-md border-[#4DD1F4] transform rotate-[-29deg] "><Image
               src="/vaishali.png"
               alt="vaishali"
               height={500}
               width={500}
-              className="rotate-[63deg] object-cover "
+              className="rotate-[15deg] object-cover mt-10"
+            /></div>
+            <div className="h-36 w-36 border-1 rounded-md border-[#4DD1F4] transform rotate-[-130deg]"><Image
+              src="/ksafe.png"
+              alt="ksafe"
+              height={500}
+              width={500}
+              className="rotate-[130deg] object-cover "
             /></div>
 
           </div>
@@ -187,7 +188,7 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Clouds + Testimonial Cards */}
+       
         <div className="w-full h-[50vh] flex items-start justify-between mt-20 relative no-scrollbar">
           <div className="absolute left-0  z-10">
             <Image
@@ -199,6 +200,9 @@ export default function Home() {
             />
           </div>
 
+
+
+
           <div className="absolute right-0 z-10">
             <Image
               src="/cloud-right.png"
@@ -208,6 +212,8 @@ export default function Home() {
               className="w-84 h-auto"
             />
           </div>
+
+          
 
 
           <div className="absolute top-[45%] z-0 w-full">
@@ -254,7 +260,7 @@ export default function Home() {
 
 
       </div>
-        <Footer/>
+      <Footer />
 
 
 

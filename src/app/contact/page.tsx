@@ -51,7 +51,7 @@ const page = () => {
 
 
             <div className="min-h-[50vh] w-[70%] text-black mt-[20%] mx-auto ">
-                {/* Heading */}
+                
                 <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
                     <h2 className="text-xl font-bold text-[#3A2E2B]">
                         Here’s what to expect
@@ -62,10 +62,10 @@ const page = () => {
                     </p>
                 </div>
 
-                {/* Divider */}
+               
                 <hr className="border-t border-[#ccc] mb-8" />
 
-                {/* Form */}
+                
                 <form className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <input
                         type="text"
